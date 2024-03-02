@@ -8,7 +8,7 @@ class KontoBankowe:
             self.__stan_konta += kwota
             print(f"Wpłacono {kwota} PLN.")
         else:
-            print("Kwota wpłaty musi być większa od zera. Test")
+            print("Kwota wpłaty musi być większa od zera.")
 
     def wyplac_pieniadze(self, kwota):
         if 0 < kwota <= self.__stan_konta:
